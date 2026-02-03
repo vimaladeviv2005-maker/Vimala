@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        .box{
+            border: 2px black solid;
+            padding: 20px;
+            width: 50%;
+            position:absolute;
+            left: 19%;
+            background-color: azure;
+        }
+        label{
+            display: inline-block;
+            width: 120px;
+            color: brown;
+        }
+        
+    </style>
+
+</head>
+<body>
+    
+    <div class="box">
+
+    <h1 style="text-align: center;">Registration Form</h1><br>
+    <label id="label">Name:</label>
+    <input type="name" required><br><br>
+    <label id="lbl">Email :</label> <input type="email" required><br><br>
+    <label id="label">Password:</label><input type="password" required><br><br>
+    <label id="label">Age:</label><input type="number" required><br><br>
+    <label id="label">Date of Birth:</label><input type="date" required><br><br>
+    <lable id="label">Gender:</lable><input type="radio" name="gender">
+    <label id="label">male</label>
+    <input type="radio" name="gender">
+    <label id="label">Female</label>
+    <input type="radio" name="gender">
+    <lable id="label">others</lable><br><br>
+    <label>Select your course:</label>
+    <select>
+        <option>full stack development</option>
+        <option>web development</option>
+        <option>Mobile app development</option>
+    </select><br><br>
+    <label >Skills</label>
+    <input type="checkbox">Java 
+    <input type="checkbox">PostgreSql
+    <input type="checkbox">Html
+    <input type="checkbox">Css
+    <br><br>
+    <label>Exprence level</label>
+    <input type="range" min="0" max="100" required><br><br>
+    <label >Upload resume</label>
+    <input type="file" required><br><br>
+    <label>Favourite color:</label>
+    <input type="color"><br><br>
+    <label>City:</label>
+    <select>
+        <option>Madurai</option>
+        <option>Chennai</option>
+        <option>Kovai</option>
+    </select><br><br>
+    <label>About yourself</label><br><br>
+    <textarea cols="30" rows="5" required></textarea><br>
+    <button class="btn">Submit</button>
+    <button class="btn">Reset</button>
+
+</div>
+
+</body>
+</html>
